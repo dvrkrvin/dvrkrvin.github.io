@@ -1,0 +1,286 @@
+html {
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(89, 0, 255, 0.6), rgba(89, 0, 255, 0.6)), url(movies.jfif);
+    background-size:cover;
+}
+
+h1 {
+    padding-right: 200px;
+    color: rgb(232,188,12);
+    font-family: sans-serif;
+    font-size: 76px;
+}
+
+.header img {
+    float: left;
+    padding-left: 200px;
+    padding-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+  
+.header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+#fname-input {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: rgb(232,188,12);
+    min-height: 50px;
+    max-width: 400px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+#lname-input {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: rgb(232,188,12);
+    min-height: 50px;
+    max-width: 400px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+#email-input {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: rgb(232,188,12);
+    min-height: 50px;
+    max-width: 400px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+#password-input {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: rgb(232,188,12);
+    min-height: 50px;
+    max-width: 350px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+#user-exists {
+    display: none;
+    padding-right: 200px;
+    color: rgb(232,188,12);
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#invalid-creds {
+    display: none;
+    padding-right: 200px;
+    color: rgb(232,188,12);
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#account-created {
+    display: none;
+    padding-right: 200px;
+    color: rgb(232,188,12);
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#alerts {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#register-div {
+    padding-left: 400px;
+    padding-bottom: 20px;
+}
+
+#cred-buttons {
+    text-align: center;
+    display: inline-block;
+}
+
+#logged-in {
+    display: none;
+}
+
+#signup {
+    display: none;
+}
+
+#title-input {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: rgb(232,188,12);
+    min-height: 50px;
+    max-width: 400px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+#rating-input {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: rgb(232,188,12);
+    min-height: 50px;
+    max-width: 495px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+#genre-input {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: rgb(232,188,12);
+    min-height: 50px;
+    max-width: 500px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+#family-input {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: rgb(232,188,12);
+    min-height: 50px;
+    max-width: 269px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+#again-input {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: rgb(232,188,12);
+    min-height: 50px;
+    max-width: 332px;
+    font-size: 50px;
+    border-radius: 5px;
+}
+
+label {
+    color: rgb(232,188,12);
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-left: 100px;
+}
+
+.container {
+    height: 200px;
+    position: relative;
+    text-align: center;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 38%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#submit-button {
+    color: rgb(232,188,12);
+    font-size: 50px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+#login-button {
+    color: rgb(232,188,12);
+    font-size: 50px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+#signup-button {
+    color: rgb(232,188,12);
+    font-size: 50px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+#register-button {
+    color: rgb(232,188,12);
+    font-size: 50px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.459);
+    display: none;
+}
+
+.movie-name {
+    color: rgb(232,188,12);
+    font-size: 40px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.movie-rating {
+    color: rgb(232,188,12);
+    font-size: 40px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.550);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.movie-genre {
+    color: rgb(232,188,12);
+    font-size: 40px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.movie-family {
+    color: rgb(232,188,12);
+    font-size: 40px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.550);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.movie-again {
+    color: rgb(232,188,12);
+    font-size: 40px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#delete-button {
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+#edit-button {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+#update-button {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+
+#movieList {
+    list-style-type: none;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 5px;
+}

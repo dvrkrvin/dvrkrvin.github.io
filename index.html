@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ratings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="header">
+            <img src="reel.png" alt="Movie Reel">
+            <h1>Movie Tracker</h1>
+        </div>
+        <div id='signup'>
+            <label for="fname-input">First Name: </label>
+            <input type="text" id="fname-input" name="fname-input"><br><br>
+            <label for="lname-input">Last Name: </label>
+            <input type="text" id="lname-input" name="lname-input"><br><br>
+            <div id="register-div">
+                <button id="register-button">Register</button>
+            </div>
+        </div>
+        <div id="login">
+            <label for="email-input">Email: </label>
+            <input type="text" id="email-input" name="email-input"><br><br>
+            <label for="password-input">Password: </label>
+            <input type="text" id="password-input" name="password-input"><br><br>
+            <div id="cred-buttons">
+                <button id="login-button">Log in</button>
+                <button id="signup-button">Sign up</button>
+            </div>
+            <div id="user-exists">*User already exists</div>
+            <div id="invalid-creds">*Incorrect email or password</div>
+            <div id="account-created">*Account created succesfully</div>
+        </div>
+        <div id="logged-in">
+            <label for="title-input">Movie Title: </label>
+            <input id="title-input" title="Movie"> <br>
+            <label for="rating-input">Rating: </label>
+            <input id="rating-input" title="Rating"> <br>
+            <label for="genre-input">Genre: </label>
+            <input id="genre-input" title="Genre"> <br>
+            <label for="family-input">Family-Friendly?: </label>
+            <input id="family-input" title="Family-Friendly?"> <br>
+            <label for="again-input">Watch Again?: </label>
+            <input id="again-input" title="Watch-Again?">
+            <button id="submit-button">Submit</button>
+            <button id='update-button'>Update</button>
+            <div class="container">
+                <ol id="movie-list">
+                </ol>
+            <div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
