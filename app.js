@@ -258,7 +258,7 @@ function editMovieFromServer(movieName, movieRating, movieGenre, movieFamily, mo
 }
 
 function loadMoviesFromServer() {
-    fetch('https://agile-bastion-53207.herokuapp.com/movies/${movieId}', {
+    fetch('https://agile-bastion-53207.herokuapp.com/movies', {
         credentials: 'include'
     }).then(function (response) {
         var login = document.querySelector('#login');
